@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/vatar"/>
+
+        <TextView
+            android:id="@+id/item_horizon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="QQ日迹"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="170dp"
+                android:layout_margin="1dp"
+                android:src="@mipmap/goodgirl"/>
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="170dp"
+                android:layout_margin="1dp"
+                android:src="@mipmap/goodgirl2"/>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="170dp"
+                android:layout_margin="1dp"
+                android:src="@mipmap/goodgirl3" />
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="170dp"
+                android:layout_margin="1dp"
+                android:src="@mipmap/goodgirl4"/>
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="170dp"
+                android:layout_margin="1dp"
+                android:src="@mipmap/goodgirl5"/>
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="170dp"
+                android:layout_margin="1dp"
+                android:src="@mipmap/goodgirl6"/>
+        </LinearLayout>
+    </HorizontalScrollView>
+</LinearLayout>
